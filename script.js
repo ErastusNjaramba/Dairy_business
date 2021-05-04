@@ -12,6 +12,14 @@ function shed (){
   var res =A+B+C+D
   alert ("Your total milk production per day "  +res+ " litres");
 
+  function productionWeekly(){
+  var weekly=(res*7*45)
+  alert ("Your total earning per week"+weekly+"  KSH");
+  
+      
+     }
+     productionWeekly()
+
   }
 
   dailyProduction()
